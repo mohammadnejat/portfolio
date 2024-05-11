@@ -1,0 +1,130 @@
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  position: relative;
+
+  .header-container {
+    background-color: $background-dark;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    .header-body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 5rem 0 3rem;
+      .sun {
+        color: $green-sun;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+      .menu-left {
+        display: flex;
+        gap: 60px;
+
+        .home-link {
+          color: $grey;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .hire-link {
+          color: $white;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .middle-section {
+    height: 100%;
+    background-color: $background-dark;
+    border-radius: 10px;
+    padding: 60px;
+    border: 1.6px solid $border;
+    .section-header {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      .icon {
+        color: $green-sun;
+        width: 24px;
+        height: 24px;
+      }
+      span {
+        color: $grey;
+        font-size: 18px;
+      }
+    }
+    .green-box {
+      position: absolute;
+      left: 12px;
+      top: -10px;
+      width: 26px;
+      height: 26px;
+      background-color: $green-sun;
+      border-radius: 5px;
+      z-index: 2;
+    }
+    .white-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 26px;
+      height: 26px;
+      background-color: $white;
+      border-radius: 5px;
+    }
+
+    .main-title {
+      width: 560px;
+      font-size: 36px;
+      font-weight: 800;
+      color: $grey;
+      span {
+        color: $green-sun;
+      }
+    }
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 4rem;
+      font-size: 20px;
+      font-weight: 800;
+
+      svg {
+        color: $green-sun;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+text {
+  fill: $green-sun;
+  font-family: serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.circleText {
+  position: absolute;
+  left: -30px;
+  top: 60px;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+
+  background-color: $border;
+  transform-origin: center center;
+
+  stroke-opacity: 0.5;
+}

@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 10rem;
+  .rightSideGreen {
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    background-color: $green-sun;
+    width: 40px;
+    height: 100px;
+  }
+  span {
+    color: $green-sun;
+  }
+  .top {
+    border-bottom: 1px solid $green-sun;
+  }
+}

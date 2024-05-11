@@ -1,0 +1,49 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  padding: 50px 50px 80px 50px;
+  text-align: center;
+  background-color: $background-dark;
+  border: 2px solid $border;
+  border-radius: 10px;
+  .profile-container {
+    position: relative;
+    .profile {
+      border-radius: 10px;
+      width: 280px;
+      height: 250px;
+    }
+    .dribble-img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      background-color: $background-primary;
+      border-radius: 10px;
+      position: absolute;
+      bottom: -11%;
+      left: 20%;
+      .dribble-img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid $border;
+  border-radius: 10px;
+  cursor: pointer;
+  img {
+    height: 18px;
+    width: 18px;
+  }
+}

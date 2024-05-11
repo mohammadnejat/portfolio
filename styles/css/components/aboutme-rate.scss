@@ -1,0 +1,41 @@
+.aboutme-rate {
+  .rate {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .green-star {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: $green-sun;
+      border-radius: 10000px;
+      svg {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        color: $white;
+      }
+    }
+    .title {
+      strong {
+        color: $white;
+        font-weight: 800;
+        font-size: 24px;
+      }
+    }
+  }
+}
+.aboutme-info {
+  strong {
+    display: block;
+    color: $white;
+    font-weight: 800;
+  }
+  small {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./vars.scss";
+@import "./fonts.scss";
+@import "../components/left.scss";
+@import "../components/right.scss";
+@import "../components/middle.scss";
+@import "../components/footer.scss";
+@import "../components/sidebar.scss";
+@import "../components/aboutme-rate.scss";
+
+p {
+  font-size: 24px;
+  font-weight: 700;
+}
+body {
+  background-color: $background-body;
+  margin: 15px auto;
+  padding: 0 15px;
+  color: $grey;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 35% auto 6%;
+  gap: 25px;
+}
