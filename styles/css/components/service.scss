@@ -1,0 +1,48 @@
+.service {
+  margin-top: 6rem;
+  .service-box:hover {
+    border: 1px solid $green-sun;
+  }
+
+  .service-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $grey;
+    margin: 3rem 1rem 0 3rem;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    transition: $transition;
+
+    h3 {
+      font-size: 20px;
+      color: $white;
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: $transition;
+      cursor: pointer;
+    }
+    ul li:hover {
+      color: $green-sun;
+    }
+    ul li:hover .border-right {
+      background-color: $green-sun;
+    }
+    .border-right {
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 1000px;
+      background-color: none;
+      transition: $transition;
+    }
+    svg {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}

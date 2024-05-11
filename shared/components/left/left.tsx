@@ -16,9 +16,9 @@ function Left() {
       <div className="left">
         <Header />
         <div className="left-tab">
-          <Tab icon={<TiHome className="active-tab-icon" />} url="aboutme" />
+          <Tab icon={<TiHome className="active-tab-icon" />} url="/" />
           <Tab icon={<PiStudent className="tab-icon" />} url="aboutme" />
-          <Tab icon={<RiLineHeight className="tab-icon" />} url="aboutme" />
+          <Tab icon={<RiLineHeight className="tab-icon" />} url="service" />
           <Tab icon={<FaFolderPlus className="tab-icon" />} url="aboutme" />
           <Tab icon={<SiCodeblocks className="tab-icon" />} url="aboutme" />
           <Tab icon={<FaRegFileCode className="tab-icon" />} url="aboutme" />
